@@ -1,0 +1,171 @@
+/* ? Variáveis Cor */
+
+:root {
+
+    --cont-color: #fafafa;
+    --box-shadow: #0000004d;
+    --bg-color_header: #eee;
+    --bd-color_input: #f0f0f0;
+    --bg-color_btn: #dddddd;
+    --bd-color_btn: #312d2dd7;
+    --color_btn: #000000;
+    --bd-color-success: #2ecc71;
+    --bd-color-error: #e74c3c;
+
+    --bg-color_btn-hover: rgba(34, 34, 180, 0.907);
+    --bd-color_btn-hover: #ffffff;
+    --color_btn-hover: #ffffff;
+    --color_und-btn_hover: #ffffff;
+
+}
+
+body {
+
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #00dbde 0%, #110464b7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+
+    background-color: var(--cont-color);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px var(--box-shadow);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+
+.header {
+
+    background-color: var(--bg-color_header);
+    text-align: center;
+
+}
+
+.form {
+
+    padding: 20px;
+
+}
+
+.form-control {
+
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+
+}
+
+.form-control label {
+
+    display: inline-block;
+    margin-bottom: 5px;
+
+}
+
+.form-control input {
+
+    border: 2px solid var(--bd-color_input);
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.form-control input ::placeholder {
+
+    font-family: 'poppinslight';
+    font-size: 16px;
+    font-weight: 400px;
+
+} 
+
+.form-control i {
+
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+
+}
+
+.form-control small {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+
+}
+
+.form button {
+
+    background-color: var(--bg-color_btn);
+    border: 2px solid var(--bd-color_btn);
+    color: var(--color_btn);
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'poppinsbold';
+    padding: 10px;
+
+}
+
+.form button:hover {
+
+    background-color: var(--bg-color_btn-hover);
+    border: 2px solid var(--bd-color_btn-hover);
+    color: var(--color_btn-hover);
+    font-size: 18px;
+    width: 100%;
+    border-radius: 10px;
+    font-family: 'poppinsbold';
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: 2px underline var(--color_und-btn_hover);
+    transition: all .3s ;
+
+}
+
+/* ? Error and Success */
+
+.form-control.success input {
+
+    border-color: var(--bd-color-success);
+
+}
+
+.form-control.error input {
+
+    border-color: var(--bd-color-error);
+
+}
+
+.form-control.success i.fa-check-circle {
+
+    color: var(--bd-color-success);
+    visibility: visible;
+
+}
+
+.form-control.error i.fa-exclamation-circle {
+
+    color: var(--bd-color-error);
+    visibility: visible;
+
+}
+
+.form-control.error small {
+
+    color: var(--bd-color-error);
+    visibility: visible;
+
+}

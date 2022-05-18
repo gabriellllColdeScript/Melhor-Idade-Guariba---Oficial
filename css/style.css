@@ -1,0 +1,224 @@
+/* ? Variáveis cores */
+
+:root {
+
+    --color-html: #ffffff;
+    --bg-color-header: #16161630;
+    --color-underline: #c4c40c68;
+    --color-text-second: #a5a5a5;
+
+    --bd-color: #235acf;
+    --bd-colors: #0051ff;
+    --colors-btn: #0051ff;
+    --bg-colors: #ffffffa7;
+    --color-text-seconds: #000000ed;
+
+}
+
+html {
+
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: var(--color-html);
+    font-family: "poppinsmedium";
+
+}
+
+body {
+
+    background: linear-gradient(rgba(17, 17, 17, 0.9), rgba(20, 20, 20, 0.9)), url('../img/fundo-index.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+
+}
+
+a.link {
+
+    color: var(--color-text-seconds);
+    text-decoration: none;
+
+}
+
+/* ? Menu - Header - nav-bar */
+
+header {
+
+    width: 100%;
+    height: 7vh;
+    background: var(--bg-color-header);
+
+}
+
+.menu-content {
+
+    text-transform: uppercase;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+
+}
+
+.logo {
+
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+
+}
+
+.menu-content .list-items {
+
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+
+}
+
+.menu-content .list-items a {
+
+    text-decoration: none;
+    color:  var(--color-html);
+    padding: 1rem;
+    transition: 2ms ease-in;
+    position: relative;
+
+}
+
+.menu-content .list-items a::before {
+
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 0px;
+    height: 1px;
+    background-color: var(--color-underline);
+    transition: all 1.5s ease;
+
+}
+
+.menu-content .list-items a:hover:before {
+
+    width: 100%;
+
+}
+
+/* ? Centro - Conteúdo Principal */
+
+main {
+
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+}
+
+.main-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* ? Textos Conteúdo Prencipal */
+
+.primary-text {
+
+    width: 850px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: "poppinsbold";
+
+}
+
+.second-text {
+
+    margin-bottom: 7rem;
+    font-size: 4rem;
+    color: var(--color-text-second);
+    font-family: "DancingScriptMedium";
+    text-shadow: 5px 2px 5px var(--bd-color);
+
+}
+
+/* ? Botões */
+
+.btns {
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.btn-sobre {
+
+    width: 280px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid var(--bd-colors);
+    background-color: var(--bg-colors);
+    font-family: 'poppinsmedium';
+    font-size: 14px;
+    box-shadow: 3px 3px 10px var(--color-text-seconds);
+
+}
+
+.btn-sobre:hover {
+
+    width: 280px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid var(--color-html);
+    background-color: var(--bd-colors);
+    color: var(--color-html);
+    font-family: 'poppinsmedium';
+    font-size: 14px;
+    box-shadow: inset 3px 3px 10px var(--color-text-seconds);
+
+}
+
+.btn-usuario {
+
+    width: 280px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid var(--bd-colors);
+    background-color: var(--bg-colors);
+    font-family: 'poppinsmedium';
+    font-size: 18px;
+    box-shadow: 3px 3px 10px var(--color-text-seconds);
+
+}
+
+.btn-usuario:hover {
+
+    width: 280px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid var(--color-html);
+    background-color: var(--bd-colors);
+    color: var(--color-html);
+    font-family: 'poppinsmedium';
+    font-size: 18px;
+    box-shadow: inset 3px 3px 10px var(--color-text-seconds);
+
+}
+
+
+/* responsividade */
+

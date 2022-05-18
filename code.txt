@@ -1,0 +1,27 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 25,
+    "editor.fontFamily": "sans-serif",
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 23,
+    "emmet.triggerExpansionOnTab": true,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": true,
+    "workbench.sideBar.location": "right",
+    "editor.minimap.enabled": false,
+    "customizeUI.titleBar": "inline",
+    "customizeUI.fontSizeMap": {
+        "13px": "18px",
+        "monospace": "19px"
+    },
+    "customizeUI.listRowHeight": 31,
+    "window.titleBarStyle": "native",
+    "breadcrumbs.enabled": false,
+    "window.zoomLevel": -1
+
+}

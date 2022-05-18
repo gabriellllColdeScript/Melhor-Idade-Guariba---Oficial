@@ -1,0 +1,103 @@
+@font-face {
+
+    font-family: 'poppinsblack';
+
+    src: url('/home/screens/fonts/poppins-black-webfont.woff2') format('woff2'),
+
+         url('/home/screens/fonts/poppins-black-webfont.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+  
+  }
+  
+  
+  
+  
+  @font-face {
+
+    font-family: 'poppinsbold';
+
+    src: url('/home/assets/fonts/Poppins/Poppins-Bold.ttf') format('woff2'),
+
+         url('/home/assets/fonts/Poppins/Poppins-BoldItalic.ttf') format('woff');
+
+    font-weight: bold;
+    
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+       
+    font-family: 'poppinslight';
+    
+    src: url('/home/assets/fonts/Poppins/Poppins-Light.ttf') format('woff2'),
+    
+         url('/home/assets/fonts/Poppins/Poppins-LightItalic.ttf') format('woff');
+         
+    font-weight: normal;
+    
+    font-style: normal;
+  
+  }
+  
+  
+  @font-face {
+       
+    font-family: 'poppinsmedium';
+    
+    src: url('/home/assets/fonts/Poppins/Poppins-Medium.ttf') format('woff2'),
+    
+         url('/home/assets/fonts/Poppins/Poppins-MediumItalic.ttf') format('woff');
+         
+    font-weight: normal;
+    
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+       
+    font-family: 'poppinsregular';
+    
+    src: url('/home/assets/fonts/Poppins/Poppins-Regular.ttf') format('woff2'),
+    
+         url('/home/assets/fonts/Poppins/Poppins-Regular.ttf') format('woff');
+         
+    font-weight: normal;
+    
+    font-style: normal;
+  
+  }
+  
+  @font-face {
+       
+    font-family: 'poppinssemibold';
+    
+    src: url('/home/assets/fonts/Poppins/Poppins-SemiBold.ttf') format('woff2'),
+    
+         url('/home/assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf') format('woff');
+         
+    font-weight: normal;
+    
+    font-style: normal;
+  
+  }
+
+
+  @font-face {
+       
+     font-family: 'DancingScriptMedium';
+     
+     src: url('/home/assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('woff2'),
+     
+          url('/home/assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('woff');
+          
+     font-weight: normal;
+     
+     font-style: normal;
+   
+   }
